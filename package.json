@@ -1,5 +1,6 @@
 {
   "name": "vippets",
+  "publisher": "s3xysteak",
   "displayName": "vippets",
   "description": "Some vue snippets. Love from vuer ",
   "version": "0.0.1",
@@ -13,11 +14,15 @@
     "snippets": [
       {
         "language": "vue",
-        "path": "./snippets/vue2.code-snippets"
+        "path": "./snippets/vue2/options.code-snippets"
       },
       {
         "language": "vue",
-        "path": "./snippets/vue3.code-snippets"
+        "path": "./snippets/vue2/lifecircle.code-snippets"
+      },
+      {
+        "language": "vue",
+        "path": "./snippets/vue3/vue3.code-snippets"
       }
     ]
   }

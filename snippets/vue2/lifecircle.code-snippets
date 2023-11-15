@@ -1,0 +1,29 @@
+{
+  "vue-created": {
+    "scope": "vue",
+    "prefix": "vcreated",
+    "body": [
+      "created() {"
+      "  $1"
+      "},"
+    ]
+  },
+  "vue-mounted": {
+    "scope": "vue",
+    "prefix": "vmounted",
+    "body": [
+      "mounted() {"
+      "  $1"
+      "},"
+    ]
+  },
+  "vue-destoryed": {
+    "scope": "vue",
+    "prefix": "vdestoryed",
+    "body": [
+      "destoryed() {"
+      "  $1"
+      "},"
+    ]
+  },
+}

@@ -1,0 +1,81 @@
+{
+  "vue-name": {
+    "scope": "vue",
+    "prefix": "vname",
+    "body": [
+      "name: '$1',"
+    ]
+  },
+  "vue-inheritAttrs": {
+    "scope": "vue",
+    "prefix": "vinheritAttrs",
+    "body": [
+      "inheritAttrs: ${1:false}}"
+    ]
+  },
+  "vue-components": {
+    "scope": "vue",
+    "prefix": "vcomponents",
+    "body": [
+      "components: {"
+      "  $1,"
+      "},"
+    ]
+  },
+  "vue-data": {
+    "scope": "vue",
+    "prefix": "vdata",
+    "body": [
+      "data() {"
+      "  return {"
+      "    $1"
+      "  }"
+      "},"
+    ]
+  },
+  "vue-props": {
+    "scope": "vue",
+    "prefix": "vprops",
+    "body": [
+      "props: {"
+      "  $1: {"
+      "    type: $2,"
+      "  },"
+      "},"
+    ]
+  },
+  "vue-computed": {
+    "scope": "vue",
+    "prefix": "vcomputed",
+    "body": [
+      "computed: {"
+      " $1() {"
+      "    return $2 "
+      "  }"
+      "},"
+    ]
+  },
+  "vue-methods": {
+    "scope": "vue",
+    "prefix": "vmethods",
+    "body": [
+      "methods: {"
+      "  $1() {"
+      "    $2"
+      "  }"
+      "},"
+    ]
+  },
+  "vue-watch": {
+    "scope": "vue",
+    "prefix": "vwatch",
+    "body": [
+      "watch: {"
+      "  data(newValue, oldValue) {"
+      "    $1"
+      "  }"
+      "},"
+    ]
+  },
+
+}
