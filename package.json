@@ -3,6 +3,10 @@
   "publisher": "s3xysteak",
   "displayName": "vippets",
   "description": "Some vue snippets. Love from vuer ",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/s3xysteak/vippets.git" 
+  },
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.84.0"
