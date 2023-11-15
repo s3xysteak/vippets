@@ -18,15 +18,15 @@
     "snippets": [
       {
         "language": "vue",
-        "path": "./snippets/vue2/options.code-snippets"
+        "path": "./snippets/vue2/options.json"
       },
       {
         "language": "vue",
-        "path": "./snippets/vue2/lifecircle.code-snippets"
+        "path": "./snippets/vue2/lifecircle.json"
       },
       {
-        "language": "vue",
-        "path": "./snippets/vue3/vue3.code-snippets"
+        "language": "vue, javascript, typescript",
+        "path": "./snippets/vue3/vue3.json"
       }
     ]
   }

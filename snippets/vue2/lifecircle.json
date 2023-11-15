@@ -3,8 +3,8 @@
     "scope": "vue",
     "prefix": "vcreated",
     "body": [
-      "created() {"
-      "  $1"
+      "created() {",
+      "  $1",
       "},"
     ]
   },
@@ -12,18 +12,18 @@
     "scope": "vue",
     "prefix": "vmounted",
     "body": [
-      "mounted() {"
-      "  $1"
+      "mounted() {",
+      "  $1",
       "},"
     ]
   },
-  "vue-destoryed": {
+  "vue-destroyed": {
     "scope": "vue",
-    "prefix": "vdestoryed",
+    "prefix": "vdestroyed",
     "body": [
-      "destoryed() {"
-      "  $1"
+      "destroyed() {",
+      "  $1",
       "},"
     ]
-  },
+  }
 }

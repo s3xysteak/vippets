@@ -10,15 +10,15 @@
     "scope": "vue",
     "prefix": "vinheritAttrs",
     "body": [
-      "inheritAttrs: ${1:false}}"
+      "inheritAttrs: ${1:false},"
     ]
   },
   "vue-components": {
     "scope": "vue",
     "prefix": "vcomponents",
     "body": [
-      "components: {"
-      "  $1,"
+      "components: {",
+      "  $1",
       "},"
     ]
   },
@@ -26,10 +26,10 @@
     "scope": "vue",
     "prefix": "vdata",
     "body": [
-      "data() {"
-      "  return {"
-      "    $1"
-      "  }"
+      "data() {",
+      "  return {",
+      "    $1",
+      "  }",
       "},"
     ]
   },
@@ -37,10 +37,10 @@
     "scope": "vue",
     "prefix": "vprops",
     "body": [
-      "props: {"
-      "  $1: {"
-      "    type: $2,"
-      "  },"
+      "props: {",
+      "  $1: {",
+      "    type: $2,",
+      "  },",
       "},"
     ]
   },
@@ -48,10 +48,10 @@
     "scope": "vue",
     "prefix": "vcomputed",
     "body": [
-      "computed: {"
-      " $1() {"
-      "    return $2 "
-      "  }"
+      "computed: {",
+      " $1() {",
+      "    return $2",
+      "  }",
       "},"
     ]
   },
@@ -59,10 +59,10 @@
     "scope": "vue",
     "prefix": "vmethods",
     "body": [
-      "methods: {"
-      "  $1() {"
-      "    $2"
-      "  }"
+      "methods: {",
+      "  $1() {",
+      "    $2",
+      "  }",
       "},"
     ]
   },
@@ -70,12 +70,11 @@
     "scope": "vue",
     "prefix": "vwatch",
     "body": [
-      "watch: {"
-      "  data(newValue, oldValue) {"
-      "    $1"
-      "  }"
+      "watch: {",
+      "  data(newValue, oldValue) {",
+      "    $1",
+      "  }",
       "},"
     ]
-  },
-
+  }
 }
