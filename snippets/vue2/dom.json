@@ -1,6 +1,5 @@
 {
   "vue-base": {
-    "scope": "vue",
     "prefix": "vbase",
     "body": [
       "<template>",

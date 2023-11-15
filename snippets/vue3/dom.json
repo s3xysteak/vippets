@@ -1,0 +1,24 @@
+{
+  "vue-script-setup": {
+    "prefix": "<sc",
+    "body": [
+      "<script setup>",
+      "$1",
+      "</script>",
+      "",
+      "<template>",
+      "  <div>",
+      "    $2",
+      "  </div>",
+      "</template>"
+    ]
+  },
+  "vue-style-scoped": {
+    "prefix": "<st",
+    "body": [
+      "<style scoped>",
+      "  $1",
+      "</style>"
+    ]
+  }
+}

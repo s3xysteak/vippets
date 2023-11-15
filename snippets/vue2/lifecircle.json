@@ -1,6 +1,5 @@
 {
   "vue-created": {
-    "scope": "vue",
     "prefix": "vcreated",
     "body": [
       "created() {",
@@ -9,7 +8,6 @@
     ]
   },
   "vue-mounted": {
-    "scope": "vue",
     "prefix": "vmounted",
     "body": [
       "mounted() {",
@@ -18,7 +16,6 @@
     ]
   },
   "vue-destroyed": {
-    "scope": "vue",
     "prefix": "vdestroyed",
     "body": [
       "destroyed() {",

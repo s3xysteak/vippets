@@ -5,7 +5,7 @@
   "description": "Some vue snippets. Love from vuer ",
   "repository": {
     "type": "git",
-    "url": "https://github.com/s3xysteak/vippets.git" 
+    "url": "https://github.com/s3xysteak/vippets.git"
   },
   "version": "0.0.3",
   "engines": {
@@ -21,24 +21,32 @@
         "path": "./snippets/vue2/dom.json"
       },
       {
-        "language": "vue",
+        "language": "javascript",
         "path": "./snippets/vue2/lifecircle.json"
       },
       {
-        "language": "vue",
+        "language": "typescript",
+        "path": "./snippets/vue2/lifecircle.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/vue2/options.json"
+      },
+      {
+        "language": "typescript",
         "path": "./snippets/vue2/options.json"
       },
       {
         "language": "vue",
-        "path": "./snippets/vue3/vue3.json"
+        "path": "./snippets/vue3/dom.json"
       },
       {
         "language": "javascript",
-        "path": "./snippets/vue3/vue3.json"
+        "path": "./snippets/vue3/js.json"
       },
       {
         "language": "typescript",
-        "path": "./snippets/vue3/vue3.json"
+        "path": "./snippets/vue3/js.json"
       }
     ]
   }

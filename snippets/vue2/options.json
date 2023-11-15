@@ -1,20 +1,17 @@
 {
   "vue-name": {
-    "scope": "vue",
     "prefix": "vname",
     "body": [
       "name: '$1',"
     ]
   },
   "vue-inheritAttrs": {
-    "scope": "vue",
     "prefix": "vinheritAttrs",
     "body": [
       "inheritAttrs: ${1:false},"
     ]
   },
   "vue-components": {
-    "scope": "vue",
     "prefix": "vcomponents",
     "body": [
       "components: {",
@@ -23,7 +20,6 @@
     ]
   },
   "vue-data": {
-    "scope": "vue",
     "prefix": "vdata",
     "body": [
       "data() {",
@@ -34,7 +30,6 @@
     ]
   },
   "vue-props": {
-    "scope": "vue",
     "prefix": "vprops",
     "body": [
       "props: {",
@@ -45,7 +40,6 @@
     ]
   },
   "vue-computed": {
-    "scope": "vue",
     "prefix": "vcomputed",
     "body": [
       "computed: {",
@@ -56,7 +50,6 @@
     ]
   },
   "vue-methods": {
-    "scope": "vue",
     "prefix": "vmethods",
     "body": [
       "methods: {",
@@ -67,7 +60,6 @@
     ]
   },
   "vue-watch": {
-    "scope": "vue",
     "prefix": "vwatch",
     "body": [
       "watch: {",

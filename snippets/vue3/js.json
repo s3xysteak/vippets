@@ -1,0 +1,32 @@
+{
+  "vue-computed": {
+    "prefix": "com",
+    "body": [
+      "computed(() => $1)"
+    ]
+  },
+  "vue-watch-effect": {
+    "prefix": "watchE",
+    "body": [
+      "watchEffect(() => {",
+      "  $1",
+      "})"
+    ]
+  },
+  "vue-on-mounted": {
+    "prefix": "onmo",
+    "body": [
+      "onMounted(() => {",
+      "  $1",
+      "})"
+    ]
+  },
+  "vue-on-unmounted": {
+    "prefix": "onun",
+    "body": [
+      "onUnmounted(() => {",
+      "  $1",
+      "})"
+    ]
+  }
+}
