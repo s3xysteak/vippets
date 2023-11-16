@@ -7,7 +7,7 @@
     "type": "git",
     "url": "https://github.com/s3xysteak/vippets.git"
   },
-  "version": "0.0.4",
+  "version": "0.0.5",
   "engines": {
     "vscode": "^1.84.0"
   },
@@ -46,6 +46,14 @@
       },
       {
         "language": "typescript",
+        "path": "./snippets/vue3/js.json"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/vue3/js.json"
+      },
+      {
+        "language": "typescriptreact",
         "path": "./snippets/vue3/js.json"
       }
     ]
