@@ -1,6 +1,8 @@
 ## Intro
 
-I am a vscode extension that provide some vue snippets.
+I am a vscode extension that provide some vue snippets support for vue2 && vue3.
+
+![intro gif](animate.gif)
 
 ## What could I do?
 
